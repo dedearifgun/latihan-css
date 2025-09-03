@@ -1,20 +1,4 @@
 body {
-    font-family: 'Courier New';
-    background-image: url("image/bg.jpg"); /* Pastikan folder dan nama file benar */
-    background-size: cover;       /* gambar menyesuaikan layar */
-    background-repeat: no-repeat; /* tidak diulang */
-    background-attachment: fixed; /* tetap saat discroll */
-    color: rgb(236, 176, 176);                 /* warna teks default */
-    padding: 20px;
-}
-h2 {
-    color: rgb(255, 255, 255);
-}
-p {
-    line-height: 1.6em;
-}
-
-body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #fff;
@@ -46,8 +30,9 @@ nav a {
 /* Bagian Perkenalan */
 .intro {
   display: flex;
-  padding: 40px;
+  padding: 60px;
   background: #f0f0f0;
+  gap: 30px; /* otomatis kasih jarak antar elemen flex */
 }
 
 .foto {
